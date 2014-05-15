@@ -53,3 +53,6 @@
 23939  history -100 |grep -i [1;32m[Kbundle exec[m[K
 23940  history -100 |grep -i "[1;32m[Kbundle exec[m[K"
 23961  fc -l -1000 |grep "[1;32m[Kbundle exec[m[K"
+23962  fc -l -1000 |grep "[1;32m[Kbundle exec[m[K" > rake.cmds
+23973  [1;32m[Kbundle exec[m[K rails s puma
+23978  [1;32m[Kbundle exec[m[K rails generate mailer UserMailer 
