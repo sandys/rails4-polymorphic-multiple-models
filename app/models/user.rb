@@ -7,6 +7,7 @@ class User < ActiveRecord::Base
   #attr_accessible :email, :name, :phone, :password, :password_confirmation, :remember_me, :rolable_type, :rolable_attributes
 
   belongs_to :rolable, :polymorphic => true
+  accepts_nested_attributes_for :rolable
 
   def merchant?
     if rolable_type == 'Merchant'

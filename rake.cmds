@@ -1,6 +1,3 @@
-23007  [1;32m[Kbundle exec[m[K rake db:migrate
-23008  [1;32m[Kbundle exec[m[K rake db:migrate VERSION=0
-23010  [1;32m[Kbundle exec[m[K rake db:migrate
 23022  [1;32m[Kbundle exec[m[K rails s
 23023  [1;32m[Kbundle exec[m[K rake routes
 23024  [1;32m[Kbundle exec[m[K rails s
@@ -56,3 +53,20 @@
 23962  fc -l -1000 |grep "[1;32m[Kbundle exec[m[K" > rake.cmds
 23973  [1;32m[Kbundle exec[m[K rails s puma
 23978  [1;32m[Kbundle exec[m[K rails generate mailer UserMailer 
+23979  fc -l -1000 |grep "[1;32m[Kbundle exec[m[K" > rake.cmds
+23983  [1;32m[Kbundle exec[m[K rails c
+23993  [1;32m[Kbundle exec[m[K rails s puma
+23999  [1;32m[Kbundle exec[m[K rails s puma
+24001  [1;32m[Kbundle exec[m[K rails s puma
+24002  [1;32m[Kbundle exec[m[K rails generate migration AddCategoryToMerchants
+24004  fc -l -1000 |grep "[1;32m[Kbundle exec[m[K" > rake.cmds
+24005  [1;32m[Kbundle exec[m[K rake db:migrate
+24007  [1;32m[Kbundle exec[m[K rails s puma
+24022  [1;32m[Kbundle exec[m[K rake db:sessions:clear
+24023  [1;32m[Kbundle exec[m[K rake tmp:sessions:clear
+24024  [1;32m[Kbundle exec[m[K rails s puma
+24025  [1;32m[Kbundle exec[m[K rake tmp:sessions:clear
+24026  [1;32m[Kbundle exec[m[K rails s puma
+24027  [1;32m[Kbundle exec[m[K  rail s
+24028  [1;32m[Kbundle exec[m[K rails s puma
+24030  [1;32m[Kbundle exec[m[K rails s puma
