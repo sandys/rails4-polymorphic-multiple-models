@@ -1,0 +1,55 @@
+23007  [1;32m[Kbundle exec[m[K rake db:migrate
+23008  [1;32m[Kbundle exec[m[K rake db:migrate VERSION=0
+23010  [1;32m[Kbundle exec[m[K rake db:migrate
+23022  [1;32m[Kbundle exec[m[K rails s
+23023  [1;32m[Kbundle exec[m[K rake routes
+23024  [1;32m[Kbundle exec[m[K rails s
+23025  [1;32m[Kbundle exec[m[K rake routes
+23026  [1;32m[Kbundle exec[m[K rails s
+23033  [1;32m[Kbundle exec[m[K rails s
+23035  [1;32m[Kbundle exec[m[K rake routes
+23037  [1;32m[Kbundle exec[m[K rake routes
+23038  [1;32m[Kbundle exec[m[K rails s
+23040  [1;32m[Kbundle exec[m[K rails s
+23046  [1;32m[Kbundle exec[m[K rails s
+23052  [1;32m[Kbundle exec[m[K rake routes
+23065  [1;32m[Kbundle exec[m[K rake db:migrate
+23066  [1;32m[Kbundle exec[m[K rails s
+23067  [1;32m[Kbundle exec[m[K rails s -p3001
+23070  [1;32m[Kbundle exec[m[K rails s
+23073  [1;32m[Kbundle exec[m[K rails s
+23075  [1;32m[Kbundle exec[m[K rails s
+23082  [1;32m[Kbundle exec[m[K rails s
+23123  [1;32m[Kbundle exec[m[K rails s
+23181  [1;32m[Kbundle exec[m[K rails s
+23223  [1;32m[Kbundle exec[m[K rails s
+23268  [1;32m[Kbundle exec[m[K rails s
+23282  [1;32m[Kbundle exec[m[K rails s
+23750  [1;32m[Kbundle exec[m[K rake db:migrate
+23752  [1;32m[Kbundle exec[m[K rake db:migrate
+23761  [1;32m[Kbundle exec[m[K rake db:migrate
+23762  [1;32m[Kbundle exec[m[K rails s puma
+23765  [1;32m[Kbundle exec[m[K rails s puma
+23827  [1;32m[Kbundle exec[m[K rails new proj
+23874  [1;32m[Kbundle exec[m[K rake db:migrate
+23893  [1;32m[Kbundle exec[m[K rails generate devise:install
+23894  [1;32m[Kbundle exec[m[K rails generate devise user
+23896  [1;32m[Kbundle exec[m[K rails generate devise user
+23899  [1;32m[Kbundle exec[m[K rails generate devise user
+23902  [1;32m[Kbundle exec[m[K rails generate devise user
+23914  [1;32m[Kbundle exec[m[K rake db:migrate
+23917  [1;32m[Kbundle exec[m[K rails generate migration AddRolableToUsers
+23920  [1;32m[Kbundle exec[m[K rake db:migrate
+23922  [1;32m[Kbundle exec[m[K rails generate scaffold Customer 
+23923  [1;32m[Kbundle exec[m[K rake db:migrate
+23924  [1;32m[Kbundle exec[m[K rails c
+23926  [1;32m[Kbundle exec[m[K rails c
+23928  [1;32m[Kbundle exec[m[K rails c
+23932  [1;32m[Kbundle exec[m[K rails generate scaffold Merchant
+23933  [1;32m[Kbundle exec[m[K rake db:migrate
+23934  [1;32m[Kbundle exec[m[K rails generate controller Registrations
+23936  [1;32m[Kbundle exec[m[K rails generate controller Registrations
+23937  [1;32m[Kbundle exec[m[K rails s puma
+23939  history -100 |grep -i [1;32m[Kbundle exec[m[K
+23940  history -100 |grep -i "[1;32m[Kbundle exec[m[K"
+23961  fc -l -1000 |grep "[1;32m[Kbundle exec[m[K"

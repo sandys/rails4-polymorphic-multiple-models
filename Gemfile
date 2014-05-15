@@ -12,6 +12,7 @@ gem 'minitest'
 gem 'fb_graph'
 gem 'aws-ses'
 gem 'puma'
+gem 'rb-readline'
 
 #Use postgresql as the database for Active Record
 gem 'pg'

@@ -1,5 +1,17 @@
 Rails.application.routes.draw do
-  devise_for :users
+  resources :merchants
+
+  resources :customers
+
+
+  devise_for :users,  :controllers => {:registrations => "registrations"}
+
+  # this is different signup urls for different types of users
+  # #similar funda can be used for sign-in as well
+  devise_scope :user do
+    match 'merchant/sign_up' => 'registrations#new', :user => { :rolable_type => 'merchant' },via: [:get, :post]
+    match 'customer/sign_up' => 'registrations#new', :user => { :rolable_type => 'customer' },via: [:get, :post]
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
